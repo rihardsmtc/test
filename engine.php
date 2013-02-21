@@ -3,4 +3,10 @@
 
 echo 'Hello World';
 
-echo 'Hello Change!';
+$i = 0;
+
+while ( $i < 100 )
+{
+	$i++;
+	echo 'This:'.$i;
+} 
