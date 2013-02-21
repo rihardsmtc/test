@@ -3,10 +3,9 @@
 
 echo 'Hello World';
 
-$i = 0;
+//$i = 0; This is not needed
 
-while ( $i < 100 )
+for ( $i = 0 ; $i < 100 ; $i ++ ) // For is better
 {
-	$i++;
 	echo 'This:'.$i;
 } 
